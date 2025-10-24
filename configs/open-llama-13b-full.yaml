@@ -1,0 +1,10 @@
+model_name: openlm-research/open_llama_13b
+trainer:
+  max_epochs: 1
+train:
+  global_batch_size: 8
+  micro_batch_size: 2
+optimizer:
+  name: sgd   # per tutorial hint to save memory vs Adam
+  lr: 5e-4
+precision: bf16-mixed

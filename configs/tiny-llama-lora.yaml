@@ -1,0 +1,16 @@
+# LoRA config for TinyLlama 1.1B
+model_name: TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T
+peft:
+  method: lora
+  r: 8
+  lora_alpha: 16
+  lora_dropout: 0.05
+trainer:
+  max_epochs: 1
+train:
+  global_batch_size: 16
+  micro_batch_size: 16
+optimizer:
+  name: adamw
+  lr: 2e-4
+precision: bf16-mixed

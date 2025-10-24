@@ -1,0 +1,10 @@
+model_name: openlm-research/open_llama_3b
+trainer:
+  max_epochs: 1
+train:
+  global_batch_size: 4
+  micro_batch_size: 1
+optimizer:
+  name: adamw
+  lr: 1e-5
+precision: bf16-mixed

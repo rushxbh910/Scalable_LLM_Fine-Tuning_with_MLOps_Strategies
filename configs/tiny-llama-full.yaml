@@ -1,0 +1,11 @@
+# Full finetune on TinyLlama 1.1B
+model_name: TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T
+trainer:
+  max_epochs: 1
+train:
+  global_batch_size: 32
+  micro_batch_size: 32
+optimizer:
+  name: adamw
+  lr: 2e-5
+precision: 32
