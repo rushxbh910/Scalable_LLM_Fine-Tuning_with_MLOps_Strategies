@@ -235,5 +235,44 @@ This repo tracks the tutorial’s sequence (leases, A100/V100 picks, LitGPT 0.5.
 
 ---
 ## 📄 Embedded PDF Screenshots
-_The PDFs you placed in `reports/screenshots/` are embedded below. If your Markdown viewer doesn’t render inline PDFs, the fallback links will still work._
-> No PDFs were found in `reports/screenshots/`. Add files ending with `.pdf` and re-run this step.
+_If your Markdown viewer doesn’t render inline PDFs, the fallback links will still work._
+
+<details>
+  <summary><strong>01 Tinyllama Techniques</strong> — click to expand</summary>
+
+  <object data="reports/screenshots/01_tinyllama_techniques.pdf" type="application/pdf" width="100%" height="650px">
+    <p>PDF preview not supported in this viewer. <a href="reports/screenshots/01_tinyllama_techniques.pdf">Open 01_tinyllama_techniques.pdf</a>.</p>
+  </object>
+</details>
+
+<details>
+  <summary><strong>02 Larger Models</strong> — click to expand</summary>
+
+  <object data="reports/screenshots/02_larger_models.pdf" type="application/pdf" width="100%" height="650px">
+    <p>PDF preview not supported in this viewer. <a href="reports/screenshots/02_larger_models.pdf">Open 02_larger_models.pdf</a>.</p>
+  </object>
+</details>
+
+<details>
+  <summary><strong>03 Param Efficient Finetuning</strong> — click to expand</summary>
+
+  <object data="reports/screenshots/03_param_efficient_finetuning.pdf" type="application/pdf" width="100%" height="650px">
+    <p>PDF preview not supported in this viewer. <a href="reports/screenshots/03_param_efficient_finetuning.pdf">Open 03_param_efficient_finetuning.pdf</a>.</p>
+  </object>
+</details>
+
+<details>
+  <summary><strong>04 Ddp Vs Single</strong> — click to expand</summary>
+
+  <object data="reports/screenshots/04_ddp_vs_single.pdf" type="application/pdf" width="100%" height="650px">
+    <p>PDF preview not supported in this viewer. <a href="reports/screenshots/04_ddp_vs_single.pdf">Open 04_ddp_vs_single.pdf</a>.</p>
+  </object>
+</details>
+
+<details>
+  <summary><strong>05 Fsdp Training</strong> — click to expand</summary>
+
+  <object data="reports/screenshots/05_fsdp_training.pdf" type="application/pdf" width="100%" height="650px">
+    <p>PDF preview not supported in this viewer. <a href="reports/screenshots/05_fsdp_training.pdf">Open 05_fsdp_training.pdf</a>.</p>
+  </object>
+</details>
