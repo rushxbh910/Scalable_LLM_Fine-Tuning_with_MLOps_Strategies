@@ -2,7 +2,7 @@
 
 **Author:** Rushabh Bhatt
 
-This repository is a project for scalable fine‑tuning of large language models (LLMs) on **Chameleon Cloud** using **LitGPT** and **PyTorch Lightning**. It consolidates single‑GPU techniques, parameter‑efficient fine‑tuning, and multi‑GPU scaling (DDP/FSDP/DeepSpeed) across **V100 (32GB)** and **A100 (80GB)** GPUs. It mirrors the flow of the *Large‑scale model training on Chameleon* tutorial while providing turnkey scripts and configs.
+This repository is a ready‑to‑run, reproducible project for scalable fine‑tuning of large language models (LLMs) on **Chameleon Cloud** using **LitGPT** and **PyTorch Lightning**. It consolidates single‑GPU techniques, parameter‑efficient fine‑tuning, and multi‑GPU scaling (DDP/FSDP/DeepSpeed) across **V100 (32GB)** and **A100 (80GB)** GPUs. It mirrors the flow of the *Large‑scale model training on Chameleon* tutorial while providing turnkey scripts and configs.
 
 ---
 
@@ -38,6 +38,8 @@ This project explores efficient training of large‑scale language models by com
 - **Models:** TinyLlama 1.1B, OpenLLaMA 3B, 7B, 13B  
 - **Parallelism:** DDP and FSDP (plus DeepSpeed for 13B)  
 - **Repo layout:** see `configs/`, `scripts/`, `scripts/a100`, `scripts/v100`, `reports/`
+
+> Add your screenshots from each run to `reports/screenshots/` using the exact filenames in [Expected Screenshots](#expected-screenshots). Some single‑GPU baselines are intentionally stress/oom tests—keep the logs.
 
 ---
 
@@ -225,3 +227,13 @@ Drop the following into `reports/screenshots/`:
 - **LitGPT:** https://github.com/Lightning-AI/litgpt  
 - **Chameleon Cloud:** https://www.chameleoncloud.org/  
 - **OpenLLaMA:** https://github.com/openlm-research/open_llama
+
+---
+
+## 📎 Reproducing the Chameleon Tutorial Flow
+This repo tracks the tutorial’s sequence (leases, A100/V100 picks, LitGPT 0.5.7, Lightning < 2.5). See inline comments in `scripts/` for experiment parity.
+
+---
+## 📄 Embedded PDF Screenshots
+_The PDFs you placed in `reports/screenshots/` are embedded below. If your Markdown viewer doesn’t render inline PDFs, the fallback links will still work._
+> No PDFs were found in `reports/screenshots/`. Add files ending with `.pdf` and re-run this step.
